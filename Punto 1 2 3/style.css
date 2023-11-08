@@ -1,0 +1,209 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    position: relative;
+    position: sticky;
+    top: 0;
+    height: 200px;
+    background-color: #252d3109;
+    z-index: 1;
+}
+
+.titulo {
+    width: 50%;
+    height: 20px;
+    position: absolute;
+}
+
+.titulo img {
+    width: 284px;
+    height: 195px;
+    position: absolute;
+    margin-left: 353px;
+}
+
+.botonesh {
+    width: 50%;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    z-index: 1;
+}
+
+.botonesh p {
+    font-weight: bold;
+    position: absolute;
+    float: left;
+    left: 30%;
+    top: 80px;
+    font-size: 18px;
+}
+
+.botonesh button {
+    position: absolute;
+    width: 125px;
+    height: 45px;
+    border-radius: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    top: 70px;
+
+}
+
+.llamar {
+    background-color: #F57F20;
+}
+
+.cotizar {
+    background-color: #1C437E;
+    margin-top: 60px;
+}
+
+.botonesh button a {
+    text-decoration: none;
+    color: white;
+    text-decoration-color: none;
+}
+
+.botonesh img {
+    position: absolute;
+    right: 680px;
+    top: 80px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    position: sticky;
+    top: 200px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #252d3109;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 225px;
+}
+
+nav i {
+    margin: 0 30px 0 25px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    margin: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    z-index: 1;
+}
+
+nav hr {
+    position: absolute;
+    top: 800px;
+    border: 6px solid rgba(128, 128, 128, 0.151);
+    position: sticky;
+    z-index: 1;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+
+}
+
+.principal {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+
+.principal img {
+    margin-top: 20px;
+}
+
+.principal p {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+
+.principal button {
+    position: absolute;
+    left: 1472px;
+    top: 180px;
+    border-radius: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    width: 125px;
+    height: 45px;
+    background-color: #F57F20;
+}
+
+.principal button a {
+    text-decoration: none;
+    color: white;
+}
+
+.elegirnos {
+    text-align: center;
+    height: 150px;
+}
+
+.elegirnos hr {
+    width: 185px;
+    border: 2px solid rgba(59, 59, 59, 0.993);
+}
+
+.pregunta {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.respuesta {
+    font-size: 19px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: relative;
+    top: 700px;
+    background-color: #7991b7;
+}
+
+.fwi {
+    float: right;
+    position: absolute;
+    display: flex;
+    left: 91%;
+}
+
+.fwi img {
+    width: 40px;
+    margin: 8px;
+}
+
+.degrade {
+    width: 100%;
+    background-image: linear-gradient(to top, #7991B7, white);
+}
